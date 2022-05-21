@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&display=swap');
+* {
+    font-family: Inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-weight: 400;
+}
+ :root {
+     --white: #ffffff;
+     --black: #000000;
+     --primary: #F2E5FF;
+     --secondary: #D0B2E8;
+     --third: #9C30CF;
+     --thirdLignt:#C4C4C4;
+ }
+ header {
+     display: flex;
+     border-bottom: 2.0rem  solid #b2a6ce;
+ }
+ header picture img {
+height: 4rem;
+ }
+ header nav{
+width: 100%;
+display:  flex;
+justify-content: flex-end;
+ }
+ header nav ul {
+     list-style-type: none;
+     display: flex;
+     align-items: center;
+ }
+ header ul li{
+     margin: 0 1rem;
+ }
+ header ul li a {
+     text-decoration: none;
+     color: var(--third);
+ }
+ main picture  div img  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ footer{
+     background-color:var(--thirdLignt) ;
+     height: 7rem;
+     display: flex;
+     align-items: center;
+ }
+ 
+ main {
+    min-height: 100vh;
+  }
+  footer {
+    background-color: #b2a6ce;
+    height: 4rem;
+  }
+  ::content{
+      width: 100%;
+      max-width: 1372px;
+      margin: 0 auto;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+  }
+  
+  body {
+    background-image: url(/img/fundo.jpg);
+    background-size: cover;
+    background-position-y: -200px;
+  }
+  
+  textarea:focus, input:focus{
+    outline: none;
+  }
+  
+  a {
+    font-size: .8rem;
+  }
+  
+  a:hover {
+    color: #b2a6ce;
+  }
+  
+  #login-container {
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #4f1c91;
+  }
+  
+  #forgot-pass {
+    display: block;
+    text-align: right;
+  }
+  
+  input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #703a9c;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1B223C;
+    transition: .5s;
+  }
+  
+ 
+  #register-container p {
+    margin-bottom: 10px;
+  }
+
+ button div{
+     display: flex;
+     color: #b2a6ce;
+     margin-left: 15%;
+     margin-right: 50%;
+     width: 10%;
+     height: 30ch;
+ }
+ button div a1 {
+    margin-left: 80%;
+    margin-right: 100%;
+ }
+ button div {
+    display: flex;
+    color: #b2a6ce;
+    margin-left: 8%;
+    margin-right: 50%;
+    width: 10%;
+    height: 30ch;
+ }
+    button{
+        width: 45%;
+        height: 45%;
+       
+    }
